@@ -12,13 +12,15 @@
   </head>
   <body>
     <h1>Interactive Map</h1>
+
     <span>Name: </span><input type="text" id = "houseNum"></input><br>
     <img src="bmmapimg.jpg" usemap="#bmmap" id="bmmapimg">
     <map name="bmmap">
-            <area target="_self" data-key="H1" alt="" title="" href="" coords="70,653,48" shape="circle">
-            <area target="_self" data-key="H2" alt="" title="" href="" coords="178,627,54" shape="circle">
-            <area target="_self" data-key="H3" alt="" title="" href="" coords="97,531,40" shape="circle">
-            <area target="_self" data-key="H4" alt="" title="" href="" coords="154,409,132,381" shape="rect">
+            <div id="overlay"></div>
+            <area alt="Pond" target="_self" data-key="H1" title="" href="" coords="70,653,48" shape="circle"></area>
+            <area alt="Pond" target="_self" data-key="H2" alt="" title="" href="" coords="178,627,54" shape="circle">
+            <area alt="Pond" target="_self" data-key="H3" alt="" title="" href="" coords="97,531,40" shape="circle">
+            <area alt="Pond" target="_self" data-key="H4" alt="" title="" href="" coords="154,409,132,381" shape="rect">
             <area target="_self" data-key="H5" alt="" title="" href="" coords="215,374,265,401" shape="rect">
             <area target="_self" data-key="H6" alt="" title="" href="" coords="316,448,31" shape="circle">
             <area target="_self" data-key="H7" alt="" title="" href="" coords="312,386,24" shape="circle">
