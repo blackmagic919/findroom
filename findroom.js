@@ -14,16 +14,11 @@ $(function(){
             alt = area.attr('alt');
         area.mouseenter(function(e){
             hover = $('#overlay');
-            hover.html("test");
-            //hover.left = '' + e.pageX + 'px';
-            //hover.top = '' + e.pageY + 'px';
-            hover.zindex = 999
-            //position = area.position();
-            //hover.parent().css({position: 'relative'});
+            hover.html(alt);
             hover.css({'left': '' + e.pageX + 'px', 'top': '' + e.pageY + 'px'});
-        })/*.mouseleave(function(){
+        }).mouseleave(function(){
             $('#overlay').html('');
-        });*/
+        });
     });
     
 });
